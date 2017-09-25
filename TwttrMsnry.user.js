@@ -13,17 +13,7 @@
 
 
 (function() {
-    'use strict';
-
-    function addGlobalStyle(css) {
-        var head, style;
-        head = document.getElementsByTagName('head')[0];
-        if (!head) { return; }
-        style = document.createElement('style');
-        style.type = 'text/css';
-        style.innerHTML = css;
-        head.appendChild(style);
-    }
+    'use strict';   
 
     addGlobalStyle(
         '#page-container { width: 100% !important; } ' +
@@ -70,6 +60,16 @@
         var wdth = Math.floor(100/numColumns) - 0.75;
         addGlobalStyle('.content-main .stream-items .stream-item { width:' + wdth + '%; }' );
         $grid.masonry('layout');
+    }
+    
+    function addGlobalStyle(css) {
+        var head, style;
+        head = document.getElementsByTagName('head')[0];
+        if (!head) { return; }
+        style = document.createElement('style');
+        style.type = 'text/css';
+        style.innerHTML = css;
+        head.appendChild(style);
     }
 
 })();
