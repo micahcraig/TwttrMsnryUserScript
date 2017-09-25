@@ -2,7 +2,7 @@
 // @name         Twitter Masonry
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  Apply as Monry layout to Twitter.com.
+// @description  Apply as Masonry layout to Twitter.com.
 // @author       Micah Craig (@micahcraig)
 // @match        https://twitter.com/
 // @grant        none
