@@ -3,6 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.2
 // @description  Apply as Masonry layout to Twitter.com.
+// @homepage     https://github.com/micahcraig/TwttrMsnryUserScript
 // @author       Micah Craig (@micahcraig)
 // @match        https://twitter.com/
 // @grant        none
