@@ -58,7 +58,7 @@
     function updateColumns(num) {
         numColumns = Math.max(0, num);
         var wdth = Math.floor(100/numColumns) - 0.75;
-        addGlobalStyle('.content-main .stream-items .stream-item { width:' + wdth + '%; }' );
+        addGlobalStyle('.content-main .stream>.stream-items:not(.recap-module) .stream-item { width:' + wdth + '%; }' );
         $grid.masonry('layout');
     }
 
