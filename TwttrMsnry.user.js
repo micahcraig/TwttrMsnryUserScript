@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TwttrMsnry
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Apply as Masonry layout to Twitter.com.
 // @author       Micah Craig (@micahcraig)
 // @match        https://twitter.com/
