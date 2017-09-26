@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Twttr Msnry
+// @name         TwttrMsnry
 // @namespace    http://tampermonkey.net/
 // @version      0.3
 // @description  Apply as Monry layout to Twitter.com.
