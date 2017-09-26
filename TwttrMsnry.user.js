@@ -35,7 +35,7 @@
 
     $('.stream-container').append("<div class='twt-msnry-ctrl'><a id='increase-columns' class='Icon Icon--medium Icon--add'></a><a id='toggle-dash' class='Icon Icon--medium Icon--dotsVertical'></a><a id='decrease-columns' class='Icon Icon--medium '>&#8210;</a></div>");
 
-    var $grid = $('.stream-items:not(.conversation-module)').masonry({
+    var $grid = $('.stream-items:not(.conversation-module):not(.recap-module)').masonry({
         itemSelector: '.stream-item'
     });
 
