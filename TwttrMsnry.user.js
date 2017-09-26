@@ -7,7 +7,7 @@
 // @match        https://twitter.com/
 // @grant        none
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js
-// @require      https://unpkg.com/masonry-layout@4.2.0/dist/masonry.pkgd.js
+// @require      https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js
 // ==/UserScript==
 
 
