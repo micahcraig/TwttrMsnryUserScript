@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Twttr Msnry
+// @name         TwttrMsnry
 // @namespace    http://tampermonkey.net/
 // @version      0.4
 // @description  Apply a Masonry layout to Twitter.com.
